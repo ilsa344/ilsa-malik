@@ -1,0 +1,53 @@
+.second-section{
+    position: relative;
+    .form-section{
+        .title{
+            font-weight: 700 !important;
+        }
+        .form-content{
+            font-size: 1rem !important; 
+        }
+    }
+    .marketing{
+        .blogs{
+            .blog-cards{
+                .card-1{
+                    .blog-title{
+                        font-weight: 900 !important;
+                        font-family: Open Sans,Arial,sans-serif;
+                        font-style: italic;
+                        font-size: 1.5rem !important;
+                    }
+                    .blog-sub-title{
+                        font-family: "Satisfy",cursive;
+                        font-size: 1.45rem !important;
+                        line-height: 1.35rem !important;
+                        color: #ff9600;
+                    }
+                    button{
+                        background: #005cb9 !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 56.25rem){   
+    .content-2{
+        display: none;
+    }
+    .marketing{
+        .blogs{
+            .blog-cards{
+                .card-1{
+                    border-bottom: 1px solid white;
+                    button{
+                        margin-bottom: 10px;
+                    }
+                }
+
+            }
+        }
+    }
+}

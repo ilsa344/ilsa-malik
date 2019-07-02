@@ -1,0 +1,65 @@
+.about{
+    i{
+        color: gray;
+        font-size: 1.5rem;
+        border: 1px solid #ff9600;
+        border-radius: 50%;
+    }
+    .about-title{
+        color: #034589;
+        cursor: pointer;
+        
+        &:hover{
+            color: #005cb9;
+        }
+    }
+    .about-content{
+        color: gray;
+    }
+}
+.features{
+    .featured{
+        background-color: #dfe4e7;
+        padding-bottom: 7rem !important;
+
+        .feature-title{
+            color: #ff9600;
+        }
+        .feature-a{
+            color: #034589;
+            font-size: 20px;
+
+            &:hover{
+                color: #005cb9;
+                text-decoration: none;  
+            }
+        }
+    }
+    .feature-img{
+        .feature-bg{
+            background: #dfe4e7;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 56.25rem){
+    .feature-img{
+        margin-top: 1rem;
+        .feature-bg{
+            background: none !important;
+            margin-left: 30%;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+    }
+    .logos{
+        display: none;
+    }
+    .about{
+        .about-card{
+            border-bottom: 1px solid #dfe4e7;
+            padding-top: 1rem;
+        }
+    }
+}

@@ -1,0 +1,24 @@
+
+@media only screen and (max-width: 56.25rem){
+    .footer{
+        .footer-col-3{
+            .footer-inner-row{
+                .inner-col-1{
+                    .main-title-sup{
+                        text-decoration: underline !important;
+                        margin: 0 !important;
+                        white-space: nowrap;
+                    }
+                    .main-title{
+                        font-size: .8rem !important;
+                        margin: 0 !important;
+                        padding: 0 !important;
+                    }
+                }
+            }
+        }
+    }
+    .footer-nav{
+        display: none;
+    }
+}

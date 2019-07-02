@@ -1,0 +1,89 @@
+.container-fluid{
+    .sub-nav{
+        
+        .col-md-7{
+            z-index: -1;
+            nav{
+                background-color: #dfe4e7;
+
+                ul{
+                    li{
+                        color: #999 !important;
+                        font-weight: 500;
+                        .links{
+                            color: #049dbe !important;
+                            font-weight: 500;
+                        }
+                        a{
+                            border-right: 1px solid gray;
+                        }
+                    }
+                }
+            }
+        }
+        .side-cuts{
+            background: #dfe4e7;
+            margin-left: 0 !important;
+            z-index: -2;
+
+            .corner{
+                position: absolute;
+                width: 90%;
+                height: 100%;
+                right: 0;
+                clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%);
+                background: #ff9600;
+
+                a{
+                    color: #005cb9;
+                }
+            }
+            .sub-corner{
+                position: absolute;
+                width: 100%;
+                z-index: -1;
+                clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%);
+                left: 0;
+                height: 100%;
+                background: rgba(0,0,0,.5)
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 56.25rem){
+    .sub-nav{
+        display: bloack !important;
+        z-index: -1;
+        .col-md-7{
+            nav{
+                ul{
+                    display: flex !important;
+                    flex-direction: row !important;
+
+                    li{
+                       padding-left: 10px; 
+                        a{
+                            padding-right: 10px !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .second-section{
+        margin-top: 3rem;
+    }
+    .side-cuts{
+        background: #ff9600 !important;
+        height: 8vh;
+        .corner{
+            clip-path: none !important;
+            width: 100% !important;
+        }
+        .sub-corner{
+            display: none;
+        }
+    }
+}

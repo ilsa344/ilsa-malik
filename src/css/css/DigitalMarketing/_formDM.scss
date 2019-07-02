@@ -1,0 +1,93 @@
+.second-section{
+    position: relative;
+    .form-section{
+        .title{
+            font-weight: 900;
+            color: #ff9600;
+        }
+        .links{
+            color: #006193;
+
+            &:hover{
+                color: #034589;
+            }
+        }
+        .form-content{
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 1.6em;
+            color: #303030;
+        }
+        .inner-content{
+            background-color: #ff9600;
+
+            h6{
+                font-family: "Satisfy",cursive;
+                font-size: 2rem;
+                line-height: 2.5rem;
+            }
+            .div-inner-content{
+                font-weight: 400;
+                font-size: 1rem;
+                line-height: 1.6em;
+                color: #303030;
+            }
+        }
+        .PT-content{
+            color: #034589;
+        }
+        .seo-content{
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 1.6em;
+            color: #303030;
+        }
+        .V-content{
+            color: #034589;
+        }
+        #accordion{
+            .card{
+                .card-header{
+                    background: #303030 !important;
+                }
+            }
+        }
+    }
+    .in-content{
+        background: #dfe4e7;
+
+        .card-contnet{
+            font-family: "satisfy",cursive;
+            color: #ff9600;
+            font-size: 1.3rem;
+            line-height: 1.7rem;
+        }
+        .content{
+            font-weight: 400;
+            font-size: 1rem;    
+        }
+        button{
+            background: #034589;
+            color: white;
+        }
+    }
+}
+
+@media only screen and (max-width: 56.25rem){   
+    .content-2{
+        display: none;
+    }
+    .marketing{
+        .blogs{
+            .blog-cards{
+                .card-1{
+                    border-bottom: 1px solid white;
+                    button{
+                        margin-bottom: 10px;
+                    }
+                }
+
+            }
+        }
+    }
+}

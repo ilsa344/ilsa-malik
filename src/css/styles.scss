@@ -1,0 +1,20 @@
+@import "./css/homeSection";
+@import "./css/header";
+@import "./css/navbar";
+@import "./css/form";
+@import "./css/feature";
+@import "./css/blog";
+@import "./css/footer";
+@import "./css/DigitalMarketing/subNav";
+@import "./css/DigitalMarketing/formDM";
+
+*{
+  margin: 0;
+  padding: 0;
+} 
+body{
+  overflow-x: hidden;
+}
+a{
+  cursor: pointer !important;
+}

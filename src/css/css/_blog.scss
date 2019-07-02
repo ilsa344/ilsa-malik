@@ -1,0 +1,45 @@
+.blogsD{
+    .blog-heading{
+        .b-title{
+            font-weight: 900 !important;
+        }
+    }
+    .inner-detail{
+        .inner-content-1{
+            .sub-title{
+                color: #005cb9 !important;
+            }
+            .content{
+                font-weight: 400;
+                font-size: 1rem;
+                line-height: 1.75em;
+                color: #303030;
+            }
+            .date{
+                color: gray;
+                font-size: 14px !important;
+            }
+        }
+    }
+    button{
+        background: #005cb9;
+        color: white;
+    }
+}
+.logos{
+    background: #dfe4e7;
+    .logo{
+        img{
+            filter: grayscale(100%);
+            width: 150px !important;
+            height: 150px;
+            cursor: pointer;
+            transition: all .4s;
+
+            &:hover{
+                filter: grayscale(0%);
+                transition: all .4s;
+            }
+        }
+    }
+}
